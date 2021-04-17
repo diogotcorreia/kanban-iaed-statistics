@@ -1,2 +1,3 @@
 node_modules/
-data/submissions.csv
+data/*.csv
+.vscode/
