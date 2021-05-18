@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estatísticas Submissões Projetos IST</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        font-family: "Fira Mono", monospace;
+        background: #151515;
+        color: white;
+
+        --c1: #118ab2;
+        --c2: #2a9d8f;
+        --c3: #e9c46a;
+        --c4: #f4a261;
+        --c5: #e76f51;
+      }
+
+      body {
+        max-width: 800px;
+        margin: auto;
+      }
+
+      .grid {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .button {
+        background: linear-gradient(
+          320deg,
+          #151515 0%,
+          var(--gradient-color) 100%
+        );
+        border-radius: 10px;
+        min-width: 100px;
+        flex-grow: 1;
+        height: 150px;
+        padding: 50px;
+        font-size: 1.5rem;
+        margin: 0 15px;
+        display: block;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .button .subtitle {
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: var(--c1)">Estatísticas Submissões Projetos IST</h1>
+    </header>
+    <main>
+      <div class="grid">
+        <a href="iaed-p1/" class="button" style="--gradient-color: var(--c2)">
+          <span class="mdi mdi-language-c"></span> IAED Projeto 1<br />
+          <span class="subtitle">2020/2021 - Semestre 2</span>
+        </a>
+        <a href="lp-p1/" class="button" style="--gradient-color: var(--c3)">
+          <span class="mdi mdi-brain"></span> LP Projeto<br />
+          <span class="subtitle">2020/2021 - Semestre 2</span>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
